@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<!-- Header -->
+<div id="header">
+	<div class="container">
+		{% include nav.html %}
+		<!-- Logo -->
+		<div id="logo">
+			<h2>{{page.title}}</h2>
+		</div>
+	</div>
+</div>
+
+<!-- Main -->
+<div id="main">
+	<div id="content" class="container">
+		<div class="row" >
+			<section class="8u -2u">
+				{% if page.featured %}
+					<a href="{{ site.prefix }}{{ page.url }}" class="image full"><img src="/assets/{{ page.featured }}" alt=""></a>
+				{% endif %}
+
+				<header>
+					{{ content }}
+				</header>
+			</section>
+		</div>
+	</div>
+</div>

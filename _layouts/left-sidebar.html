@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<!-- Header -->
+<div id="header">
+	<div class="container">
+		{% include nav.html %}
+		<!-- Logo -->
+		<div id="logo">
+			<h2>{{page.title}}</h2>
+		</div>
+	</div>
+
+</div>
+<!-- Main -->
+	<div id="main">
+		<div class="container">
+			<div class="row">
+				{% include sidebar.html %}
+
+				<!-- Content -->
+				<div id="content" class="8u skel-cell-important">
+					<section>
+						<header>
+							<h2> {{ page.title }} </h2>
+							<span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>
+						</header>
+						{{ content }}
+					</section>
+				</div>
+
+			</div>
+		</div>
+	</div>
+<!-- /Main -->
