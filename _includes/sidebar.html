@@ -8,8 +8,6 @@
 		<div class="row">
 			<section class="6u">
 				<ul class="default">
-					<li><a href="#">Donec facilisis tempor</a></li>
-					<li><a href="#">Nulla convallis cursus</a></li>
 					<li><a href="#">Integer congue euismod</a></li>
 					<li><a href="#">Venenatis vulputate</a></li>
 					<li><a href="#">Morbi ligula volutpat</a></li>
@@ -20,12 +18,11 @@
 					<li><a href="#">Donec facilisis tempor</a></li>
 					<li><a href="#">Nulla convallis cursus</a></li>
 					<li><a href="#">Integer congue euismod</a></li>
-					<li><a href="#">Venenatis vulputate</a></li>
-					<li><a href="#">Morbi ligula volutpat</a></li>
 				</ul>
 			</section>
 		</div>
 	</section>
+
 	<section>
 		<header>
 			<h2>Recent Blog Posts</h2>
@@ -33,11 +30,10 @@
 		<ul class="style">
 		{% for post in site.posts offset: 0 limit: 2 %}
 			<li>
-				<p class="posted">{{ post.date | date_to_string }}  |  (10 )  Comments</p>
-				<p><a href="{{ site.prefix }}{{ post.url }}">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</a></p>
+				<p class="posted">{{ post.date | date_to_string }}
+				<a href="{{ site.prefix }}{{ post.url }}">: {{ post.title }}</a></p>
 			</li>
 		{% endfor %}
 		</ul>
 	</section>
 </div>
-

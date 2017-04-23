@@ -10,26 +10,41 @@ layout: default
 			<h2>{{page.title}}</h2>
 		</div>
 	</div>
-
 </div>
+
 <!-- Main -->
-	<div id="main">
-		<div class="container">
-			<div class="row">
-				{% include sidebar.html %}
+<div id="main">
+	<div id="content" class="container">
+		<div class="row">
+			{% for section in page.yml %}
+				<!--  LEFT SIDEBAR -->
+				{% if section.category == "left" %}
+					<div id="sidebar" class="3u -2u">
+						<section>
+							{% capture section_description %}{% include {{ section.description }} %}{% endcapture %}
+							{{section_description | markdownify }}
+						</section>
+					</div>
+				{%else%}
+					<!-- MAIN CONTENT -->
+					<div id="content" class="6u skel-cell-important">
+						<section>
+							<header>
+								<h1> {{ page.title }} </h1>
+								{%if page.subtitle%}
+									<h2>{{page.subtitle}}</h2>
+								{%endif%}
+							</header>
+							{% capture section_description %}{% include {{ section.description }} %}{% endcapture %}
+							{{section_description | markdownify }}
+						</section>
+					</div>
+				{% endif %}
+			{%endfor%}
 
-				<!-- Content -->
-				<div id="content" class="8u skel-cell-important">
-					<section>
-						<header>
-							<h2> {{ page.title }} </h2>
-							<span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>
-						</header>
-						{{ content }}
-					</section>
-				</div>
+			<!-- Content -->
 
-			</div>
 		</div>
 	</div>
+</div>
 <!-- /Main -->

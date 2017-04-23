@@ -1,10 +1,11 @@
 # Where things are
 source:       .
-destination:  ./_site
+# destination:  ./finalSite
 plugins_dir:  _plugins
 layouts_dir:  _layouts
 data_dir:     _data
 includes_dir: _includes
+pages: _pages
 collections:
   posts:
     output:   true
@@ -19,6 +20,7 @@ twitter: rnaka_
 github: rnakanishi
 tumblr: rnakanishi
 instagram: rnaka_
+arstation: uryousuke
 quote: Os acertos não serão muitos nessa vida. Mas é bom que treinemos com eles para que possamos nos aperfeiçoar
 
 linkedin: rafael-nakanishi-2650bb17
@@ -47,6 +49,7 @@ highlighter: rouge
 lsi:         false
 excerpt_separator: "\n\n"
 incremental: false
+parse_block_html: true
 
 # Serving
 detach:  false
@@ -68,7 +71,7 @@ defaults: []
 liquid:
   error_mode: warn
 
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-textile-converter]
 paginate: 5
 
 # Markdown Processors
@@ -86,4 +89,5 @@ kramdown:
   input:          GFM
   hard_wrap:      false
   footnote_nr:    1
-  # parse_block_html: true
+  syntax_highlighter: pygments
+  parse_block_html: true
