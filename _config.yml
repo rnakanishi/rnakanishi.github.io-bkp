@@ -9,6 +9,7 @@ collections:
   posts:
     output:   true
 header_image: header2.jpg
+
 # Variables
 title: Rafael Nakanishi
 email: rafael.umino.nakanishi@gmail.com
