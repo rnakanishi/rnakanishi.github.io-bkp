@@ -190,6 +190,19 @@
 				margin-bottom: 2em;
 			}
 
+			.image.square
+			{
+				display: block;
+				width: 100%;
+				margin-bottom: 2em;
+			}
+
+			img.medium {
+				margin: auto;
+				width: 75%;
+				text-align: center;
+			}
+
 			.image.circle
 			{
 				margin: auto;

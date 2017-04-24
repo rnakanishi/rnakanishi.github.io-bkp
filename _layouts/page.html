@@ -18,7 +18,9 @@ layout: default
 		<div class="row" >
 			<section class="8u -2u">
 				{% if page.featured %}
-					<a href="{{ site.prefix }}{{ page.url }}" class="image full"><img src="/assets/{{ page.featured }}" alt=""></a>
+	                {% for teaser in post.featured%}
+						<a href="{{ site.prefix }}{{ page.url }}" class="image full"><img src="{{ teaser }}" alt=""></a>
+	                {%endfor%}
 				{% endif %}
 
 				<header>

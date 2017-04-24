@@ -22,27 +22,41 @@ layout: default
 		</header>
 		<p>Under construction</p>
 		<hr />
+
+		<header>
+			<h2>Last publications</h2>
+		</header>
+		<div class="row">
+			{% for post in site.categories.publication limit:3 %}
+				<section class="4u">
+	                {% for teaser in post.teaser%}
+						<!-- <a class="image small"><img src="{{teaser}}" alt="" class="medium"></a > -->
+						<a href="{{post.url}}" class="image small"><img src="{{teaser}}" alt="" class="medium"></a >
+					{%endfor%}
+					<h3>{{post.title}}</h3>
+					<p>{{post.conference}}</p>
+				</section>
+			{%endfor%}
+		</div>
+		<hr />
+
+		<header>
+			<h2>Projects</h2>
+		</header>
 		<div class="row">
 			<section class="4u">
+				<br />
+			</section>
+			<section class="4u">
 				<span class="pennant"><span class="fa fa-briefcase"></span></span>
-				<h3>Voronowledge project</h3>
-				<p>A compilation of geometry, fluid simulations, continuum mechanics articles.</p>
+				<h3>Voronowledge</h3>
+				<p>A compilation of geometry, fluid simulations, continuum mechanics studies.</p>
 				<p><i>Under construction</i></p>
-				<a href="https://rnakanishi.github.io/voronowledge/" class="button button-style1">Read More</a>
+				<a href="https://rnakanishi.github.io/voronowledge/" class="button button-style1" target="_blank">Read More</a>
 			</section>
 			<section class="4u">
-				<span class="pennant"><span class="fa fa-lock"></span></span>
-				<h3>Maecenas luctus lectus</h3>
-				<p>Donec ornare neque ac sem. Mauris aliquet. Aliquam sem leo, vulputate sed, convallis at, ultricies quis, justo. Donec magna.</p>
-				<a href="#" class="button button-style1">Read More</a>
+				<br />
 			</section>
-			<section class="4u">
-				<span class="pennant"><span class="fa fa-globe"></span></span>
-				<h3>Maecenas luctus lectus</h3>
-				<p>Curabitur sit amet nulla. Nam in massa. Sed vel tellus. Curabitur sem urna, consequat vel, suscipit in, mattis placerat, nulla. Sed ac leo.</p>
-				<a href="#" class="button button-style1">Read More</a>
-			</section>
-
 		</div>
 	</div>
 </div>

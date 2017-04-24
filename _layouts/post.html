@@ -20,7 +20,7 @@ layout: default
 		<div class="row">
 			<section class="8u -2u">
 				{% if page.featured %}
-					<a href="{{ site.prefix }}{{ page.url }}" class="image full"><img src="/assets/{{ page.featured }}" alt=""></a>
+					<a href="{{ site.prefix }}{{ page.url }}" class="image full"><img src="{{ page.featured }}" alt=""></a>
 				{% endif %}
 				<header>
 					<h1>{{ page.title }}</h1>
