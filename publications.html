@@ -4,59 +4,36 @@ title: Publications
 permalink: /publications
 ---
 
-<h1>2016</h1>
+{% for post in site.posts %}
+    {% if post.category == "publication" %}
+        {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+        {% capture previous_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+        {% capture next_year %}{{ post.next.date | date: "%Y" }}{% endcapture %}
 
-<div class="row">
-    <section class="6u">
-            <a href="#" class="image full"><img src="/assets/images/ant-signal-cur.png" alt=""></a>
-            <br/>
-        <a href="#" class="image full"><img src="/assets/images/centaur-crp.png" alt=""></a>
-        <header>
-            <h2><b>3D shape retrieval using temporal series features</b></h2>
-            <h3>R.U. Nakanishi</h3>
-            <h3><i>Master Thesis</i></h3>
-        </header>
-    </section>
-    <section class="6u">
-        <p><b>Abstract: </b>With the increasing data storage capacity of databases and personal computers, arises the necessity of computer algorithms capable of performing processing for automatic recovery of data and information.
-    	This fact is no different for three-dimensional objects stored in files.
-    	In this Master's Thesis we studied new techniques for processing such data objects using an unusual approach to the geometric processing area: techniques for analyzing time series, such as scattering wavelets and recurrence plots.
-    	For shape retrieval problem, i.e., given a tridimensional mesh try finding other meshes that are visually similar, our method extract only one feature - Gaussian curvature and surface variation, for example - and organize it as a series using information given by Fiedler vector.
-    	Then, the next step is to process the resulting series using a technique called scattering wavelets, that is capable of analyzing the temporal behavior of a set of serial data.
-    	For this problem, the results are comparable with other approaches reported in the literature that use multiple characteristics to find a matching mesh.
-    	In the case of partial retrieval of objects, in which only a part of the object is given as search parameter, it is necessary to perform a segmentation of the meshes in order to find other parts that are visually similar to the query. By using Recurrence Plot to analyze the objects, our method can find not only the most similar region within the same (or other) object, but also get all the regions that are similar to the search parameter.
-        </p>
-    </section>
-</div>
+        {% if this_year != next_year %}
+            <h1>{{this_year}}</h1>
+        {% endif %}
 
-<div class="row">
-    <section class="6u">
-        <a href="#" class="image full"><img src="/assets/images/crp16.png" alt=""></a>
-        <header>
-            <h2><b>Partial similarity of 3D shapes using cross recurrence plot </b></h2>
-            <h3>R.U. Nakanishi, J.P. Ono, P. Pagliosa, L.G. Nonato and A. Paiva </h3>
-            <h3><i>Proceedings of SIBGRAPI 2016</i></h3>
-        </header>
-    </section>
-    <section class="6u">
-        <p><b>Abstract:</b> This paper presents a novel 3D partial shape retrieval algorithm based on time-series analysis. Given a piece of a 3D shape, the proposed method encodes the shape descriptor given by the Heat Kernel Signature (HKS) as a time-series, where the time is considered an ordered sequence of vertices provided by the Fiedler vector. Finally, a similarity metric is created using a well-known tool in time-series analysis called Cross Recurrence Plot (CRP). The good performance of our method is also attested in a large collection of shape models.</b> </p>
-    </section>
-</div>
+        <div class="row">
+            <section class="6u">
+                {% for teaser in post.teaser%}
+                    <a href="#" class="image full"><img src="{{teaser}}" alt=""></a>
+                {%endfor%}
+                <header>
+                    <h2><b>{{post.title}}</b></h2>
+                    <h3>{{post.authors}}</h3>
+                    <h3><i>{{post.conference}}</i></h3>
+                </header>
+            </section>
+            <section class="6u">
+                <p><b>Abstract: </b> </p>
+                {{post.content}}
+            </section>
+        </div>
 
-<hr />
 
-<h1>2015</h1>
-
-<div class="row">
-    <section class="6u">
-        <a href="#" class="image full"><img src="/assets/images/shrec15.png" alt=""></a>
-        <header>
-            <h2><b>SHREC’15 Track: Non-rigid 3D Shape Retrieval</b></h2>
-            <h3>Z. Lian, J. Zhang, S. Choi, H. ElNaghy, J. El-Sana, T. Furuya, A. Giachetti, R.A. Guler, L. Isaia, L. Lai, C. Li, H. Li, F.A. Limberger, R. Martin, R.U. Nakanishi, A. Paiva, L.G. Nonato, R. Ohbuchi, K. Pevzner, D. Pickup, P. Rosin, A. Sharf L. Sun, X. Sun, S. Tari, G. Unal and R.C. Wilson</h3>
-            <h3><i>Proceedings of EG Workshop on 3D Object Retrieval, 2015.</i></h3>
-        </header>
-    </section>
-    <section class="6u">
-        <p><b>Abstract:</b> Non-rigid 3D shape retrieval has become a research hotpot in communities of computer graphics, computer vision, pattern recognition, etc. In this paper, we present the results of the SHREC’15 Track: Non-rigid 3D Shape Retrieval. The aim of this track is to provide a fair and effective platform to evaluate and compare the performance of current non-rigid 3D shape retrieval methods developed by different research groups around the world. The database utilized in this track consists of 1200 3D watertight triangle meshes which are equally classified into 50 categories. All models in the same category are generated from an original 3D mesh by implementing various pose transformations. The retrieval performance of a method is evaluated using 6 commonly-used measures (i.e., PR-plot, NN, FT, ST, E-measure and DCG.). Totally, there are 37 submissions and 11 groups taking part in this track. Evaluation results and comparison analyses described in this paper not only show the bright future in researches of non-rigid 3D shape retrieval but also point out several promising research directions in this topic.</p>
-    </section>
-</div>
+        {% if this_year != previous_year %}
+            <hr />
+        {% endif %}
+    {%endif%}
+{%endfor%}
