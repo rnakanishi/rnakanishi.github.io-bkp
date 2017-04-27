@@ -33,7 +33,8 @@ layout: default
 						<!-- <a class="image small"><img src="{{teaser}}" alt="" class="medium"></a > -->
 						<a href="{{post.url}}" class="image small"><img src="{{teaser}}" alt="" class="medium"></a >
 					{%endfor%}
-					<h3>{{post.title}}</h3>
+					<a href="{{post.url}}"><h3>{{post.title}}</h3></a>
+					<!-- <h3>{{post.title}}</h3> -->
 					<p>{{post.conference}}</p>
 				</section>
 			{%endfor%}
@@ -48,8 +49,10 @@ layout: default
 				<br />
 			</section>
 			<section class="4u">
-				<span class="pennant"><span class="fa fa-briefcase"></span></span>
-				<h3>Voronowledge</h3>
+				<a href="https://rnakanishi.github.io/voronowledge/" target="_blank">
+					<span class="pennant"><span class="fa fa-briefcase"></span></span>
+					<h3>Voronowledge</h3>
+				</a>
 				<p>A compilation of geometry, fluid simulations, continuum mechanics studies.</p>
 				<p><i>Under construction</i></p>
 				<a href="https://rnakanishi.github.io/voronowledge/" class="button button-style1" target="_blank">Read More</a>

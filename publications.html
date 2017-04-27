@@ -13,21 +13,41 @@ permalink: /publications
         {% if this_year != next_year %}
             <h1>{{this_year}}</h1>
         {% endif %}
-
+        <br />
         <div class="row">
             <section class="6u">
-                {% for teaser in post.teaser%}
-                    <a class="image full"><img src="{{teaser}}" alt=""></a>
-                {%endfor%}
                 <header>
-                    <h2><b>{{post.title}}</b></h2>
-                    <h3>{{post.authors}}</h3>
+                    <a href="{{post.url}}"><h2><b>{{post.title}}</b></h2></a>
+
+                    <h3 class="authors">
+                    {% for auth in post.authors %}
+                        {% if auth.site %}
+                            <a href="{{auth.site}}" target="_blank">
+                                {% unless forloop.last %}
+                                    {{auth.name}},
+                                {%else%}
+                                    {{auth.name}}
+                                {%endunless%}
+                            </a>
+                        {% else %}
+                            {% unless forloop.last %}
+                                {{auth.name}},
+                            {%else%}
+                                {{auth.name}}
+                            {%endunless%}
+                        {%endif%}
+                    {% endfor %}
+                    </h3>
+
                     <h3><i>{{post.conference}}</i></h3>
+                    {% for teaser in post.teaser%}
+                    <a href="{{post.url}}"  class="image full"><img src="{{teaser}}" alt=""></a>
+                    {% endfor %}
                 </header>
             </section>
             <section class="6u">
-                <p><b>Abstract: </b> </p>
-                {{post.content}}
+                <p><b>Abstract: </b> {{post.abstract}}</p>
+
             </section>
         </div>
 
