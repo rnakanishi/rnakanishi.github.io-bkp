@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+<!-- Header -->
+<div id="header">
+	<div class="container">
+		{% include nav.html %}
+		<!-- Logo -->
+		<!-- <div id="logo">
+			<a href="#">{{page.title}}</a>
+			<p>{{post.date | date:"%e %B %Y"}}</p>
+		</div> -->
+	</div>
+</div>
+
+<!-- Main -->
+<div id="main">
+	<div id="content" class="container">
+		<div class="row">
+			<section class="8u -2u">
+				{% if page.featured %}
+					<a href="{{ site.prefix }}{{ page.url }}" class="image full"><img src="{{ page.featured }}" alt=""></a>
+				{% endif %}
+				<header>
+					<h1>{{ page.title }}</h1>
+
+                    <h2 class="authors">
+                    {% for auth in page.authors %}
+                        {% if auth.site %}
+                            <a href="{{auth.site}}" target="_blank">
+                                {% unless forloop.last %}
+                                    {{auth.name}},
+                                {%else%}
+                                    {{auth.name}}
+                                {%endunless%}
+                            </a>
+                        {% else %}
+                            {% unless forloop.last %}
+                                {{auth.name}},
+                            {%else%}
+                                {{auth.name}}
+                            {%endunless%}
+                        {%endif%}
+                    {% endfor %}
+                </h2>
+				</header>
+				{{ content }}
+			</section>
+		</div>
+	</div>
+</div>

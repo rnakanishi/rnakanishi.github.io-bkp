@@ -1,4 +1,5 @@
 ---
+layout: article
 title: 3D shape retrieval using temporal series features
 authors:
 - name: "R.U. Nakanishi"
@@ -18,3 +19,5 @@ abstract: |
     For this problem, the results are comparable with other approaches reported in the literature that use multiple characteristics to find a matching mesh.
     In the case of partial retrieval of objects, in which only a part of the object is given as search parameter, it is necessary to perform a segmentation of the meshes in order to find other parts that are visually similar to the query. By using Recurrence Plot to analyze the objects, our method can find not only the most similar region within the same (or other) object, but also get all the regions that are similar to the search parameter.
 ---
+
+My master thesis :D

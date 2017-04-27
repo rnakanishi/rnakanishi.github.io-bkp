@@ -1,4 +1,5 @@
 ---
+layout: article
 title: Partial similarity of 3D shapes using cross recurrence plot
 authors:
 - name: "R.U. Nakanishi"
