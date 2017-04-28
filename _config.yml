@@ -9,7 +9,7 @@ pages: _pages
 collections:
   posts:
     output:   true
-header_image: header2.jpg
+header_image: header.jpg
 
 # Variables
 title: Rafael Umino Nakanishi

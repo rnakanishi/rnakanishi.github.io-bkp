@@ -6,10 +6,10 @@ authors:
   site: "https://rnakanishi.github.io/"
 conference: Master Thesis
 teaser:
-- /assets/images/ant-signal-cur.png
+- /assets/images/ant-signal-cur.jpg
 - /assets/images/centaur-crp.png
 category: publication
-featured: /assets/images/featured/master-thesis.png
+featured: /assets/images/featured/master-thesis.jpg
 abstract: |
     With the increasing data storage capacity of databases and personal computers, arises the necessity of computer algorithms capable of performing processing for automatic recovery of data and information.
     This fact is no different for three-dimensional objects stored in files.
