@@ -45,7 +45,7 @@ whitelist: []
 
 # Conversion
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 linenos: true;
 lsi: false
 excerpt_separator: "\n\n"
@@ -90,7 +90,7 @@ kramdown:
   hard_wrap:      false
   footnote_nr:    1
   input:          GFM
-  syntax_highlighter: pygments
+  syntax_highlighter: rouge
   hard_wrap: false
   syntax_highlighter_opts:
     span: false
