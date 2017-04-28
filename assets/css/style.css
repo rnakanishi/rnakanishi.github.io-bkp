@@ -181,9 +181,15 @@ section:last-child, article:last-child {
     margin-bottom: 2em;
 }
 
-img.medium {
+.image.medium {
     margin: auto;
     width: 75%;
+    text-align: center;
+}
+
+.image.small {
+    margin: auto;
+    width: 50%;
     text-align: center;
 }
 
@@ -468,6 +474,10 @@ ul.style .first {
 
 
 /*********************************************************************************/
+
+#main:before{
+    top: 0;
+}
 
 #main {
     position: relative;

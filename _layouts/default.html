@@ -23,27 +23,13 @@ Released for free under the Creative Commons Attribution 3.0 license (templated.
 	<link rel="stylesheet" href="/assets/css/rnaka.css" />
 </head>
 <body>
+
+	{% include nav.html %}
+
 	<!-- Content -->
 	{{ content }}
 
-	<!-- Tweet -->
-	<div id="tweet">
-		<div class="container">
-			<section>
-				<blockquote>&ldquo;{{site.quote}}&rdquo;</blockquote>
-			</section>
-		</div>
-	</div>
-
 	{% include footer.html %}
-
-<!-- Copyright -->
-<div id="copyright">
-	<div class="container">
-		Design: <a href="http://templated.co">TEMPLATED</a> Images: <a href="http://unsplash.com">Unsplash</a> (<a href="http://unsplash.com/cc0">CC0</a>)
-		Jekyll Template: <a href="http://cloudcannon.com">Cloud Cannon</a>
-	</div>
-</div>
 
 </body>
 </html>

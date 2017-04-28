@@ -1,18 +1,8 @@
 ---
-title: Rafael Nakanishi
+title: Rafael Umino Nakanishi
 layout: default
 ---
 
-<!-- Header -->
-<div id="header">
-	<div class="container">
-		{% include nav.html %}
-		<!-- Logo -->
-		<div id="logo">
-			<h1><a href="#">{{site.title}}</a></h1>
-		</div>
-	</div>
-</div>
 
 <!-- Featured -->
 <div id="featured">
@@ -20,7 +10,6 @@ layout: default
 		<header>
 			<h2>Welcome to my website</h2>
 		</header>
-		<p>Under construction <code>Test code()</code></p>
 
 		<hr />
 
@@ -32,7 +21,7 @@ layout: default
 				<section class="4u">
 	                {% for teaser in post.teaser%}
 						<!-- <a class="image small"><img src="{{teaser}}" alt="" class="medium"></a > -->
-						<a href="{{post.url}}" class="image small"><img src="{{teaser}}" alt="" class="medium"></a >
+						<a href="{{post.url}}" class="image medium"><img src="{{teaser}}" alt=""></a >
 					{%endfor%}
 					<a href="{{post.url}}"><h3>{{post.title}}</h3></a>
 					<!-- <h3>{{post.title}}</h3> -->

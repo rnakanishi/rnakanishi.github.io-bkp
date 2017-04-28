@@ -5,6 +5,7 @@ plugins_dir:  _plugins
 layouts_dir:  _layouts
 data_dir:     _data
 includes_dir: _includes
+tag_page_dir: blog/tags
 pages: _pages
 collections:
   posts:
@@ -72,7 +73,7 @@ defaults: []
 liquid:
   error_mode: warn
 
-gems: [jekyll-paginate, jekyll-textile-converter]
+gems: [jekyll-paginate, jekyll-textile-converter, jekyll-archivesa]
 paginate: 5
 
 # Markdown Processors
@@ -87,11 +88,10 @@ kramdown:
   entity_output:  as_char
   toc_levels:     1..6
   smart_quotes:   lsquo,rsquo,ldquo,rdquo
-  hard_wrap:      false
+  hard_wrap:      true
   footnote_nr:    1
   input:          GFM
   syntax_highlighter: rouge
-  hard_wrap: false
   syntax_highlighter_opts:
     span: false
     block:

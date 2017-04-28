@@ -1,3 +1,13 @@
+<!-- Tweet -->
+<div id="tweet">
+	<div class="container">
+		<section>
+			<blockquote>&ldquo;{{site.quote}}&rdquo;</blockquote>
+		</section>
+	</div>
+</div>
+
+
 <!-- Footer -->
 <div id="footer">
 	<div class="container">
@@ -7,26 +17,41 @@
 				<span class="byline">Site developed by RNakanishi</span>
 			</header>
 			<ul class="contact">
-                <li><a href="mailto:{{site.email}}" class="fa fa-envelope"><span>E-mail</span></a></li>
+				<li><a href="mailto:{{site.email}}" class="fa fa-envelope"><span>E-mail</span></a></li>
 				<li><a href="https://www.twitter.com/{{site.twitter}}" class="fa fa-twitter" target="_blank"><span>Twitter</span></a></li>
 				<li class="active"><a href="https://www.linkedin.com/in/{{site.linkedin}}" class="fa fa-linkedin" target="_blank"><span>Facebook</span></a></li>
 				<!-- <li><a href="http://{{site.tumblr}}.tumblr.com/" class="fa fa-tumblr" target="_blank"><span>Tumblr</span></a></li> -->
 				<!-- <li><a href="https://www.instagram.com/{{site.instagram}}" class="fa fa-instagram"><span>Instagram</span></a></li> -->
 			</ul>
-            {% if site.github.is_project_page %}
-                <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-            {% endif %}
-        </section>
+			{% if site.github.is_project_page %}
+			<p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+			{% endif %}
+		</section>
 	</div>
 </div>
 
 {% if site.google_analytics %}
-  <script type="text/javascript">
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', '{{ site.google_analytics }}', 'auto');
-    ga('send', 'pageview');
-  </script>
+<script type="text/javascript">
+	(function(i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r;
+		i[r] = i[r] || function() {
+			(i[r].q = i[r].q || []).push(arguments)
+		}, i[r].l = 1 * new Date();
+		a = s.createElement(o),
+			m = s.getElementsByTagName(o)[0];
+		a.async = 1;
+		a.src = g;
+		m.parentNode.insertBefore(a, m)
+	})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+	ga('create', '{{ site.google_analytics }}', 'auto');
+	ga('send', 'pageview');
+</script>
 {% endif %}
+
+<!-- Copyright -->
+<div id="copyright">
+	<div class="container">
+		Design: <a href="http://templated.co">TEMPLATED</a>
+		Jekyll Template: <a href="http://cloudcannon.com">Cloud Cannon</a>
+	</div>
+</div>
