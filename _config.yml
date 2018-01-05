@@ -71,7 +71,7 @@ defaults: []
 liquid:
   error_mode: warn
 
-gems: [jekyll-paginate, jekyll-textile-converter, jekyll-archivesa]
+plugins: [jekyll-paginate, jekyll-textile-converter, jekyll-archivesa]
 paginate: 5
 
 # Markdown Processors

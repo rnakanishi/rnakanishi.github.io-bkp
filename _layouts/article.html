@@ -1,40 +1,9 @@
 ---
-layout: default
+layout: post
 ---
 
-<!-- Main -->
-<div id="main">
-	<div id="content" class="container">
-		<div class="row">
-			<section class="8u -2u">
-				{% if page.featured %}
-					<a href="{{ site.prefix }}{{ page.url }}" class="image full"><img src="{{ page.featured }}" alt=""></a>
-				{% endif %}
-				<header>
-					<h1>{{ page.title }}</h1>
+{% if page.featured %}
+	<a href="{{ site.prefix }}{{ page.url }}" class="image fit"><img src="{{ page.featured }}" alt=""></a>
+{% endif %}
 
-                    <h2 class="authors">
-                    {% for auth in page.authors %}
-                        {% if auth.site %}
-                            <a href="{{auth.site}}" target="_blank">
-                                {% unless forloop.last %}
-                                    {{auth.name}},
-                                {%else%}
-                                    {{auth.name}}
-                                {%endunless%}
-                            </a>
-                        {% else %}
-                            {% unless forloop.last %}
-                                {{auth.name}},
-                            {%else%}
-                                {{auth.name}}
-                            {%endunless%}
-                        {%endif%}
-                    {% endfor %}
-                </h2>
-				</header>
-				{{ content }}
-			</section>
-		</div>
-	</div>
-</div>
+{{ content }}

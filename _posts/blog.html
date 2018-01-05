@@ -1,0 +1,16 @@
+---
+layout: page
+title: Blog
+permalink: /blog/
+---
+
+<!-- This loops through the paginated posts -->
+{% for post in site.categories.blog %}
+    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    {%if post.summary %}
+        <h2>{{post.summary}}</h2>
+    {%endif%}
+    <p class="date">
+        <span class="date">{{ post.date |  date: " %e %B, %Y" }}</span>
+    </p>
+{% endfor %}

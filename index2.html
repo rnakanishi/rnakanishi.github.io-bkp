@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+
+<!-- Featured -->
+<div id="featured">
+	<div class="container">
+		<header>
+			<h2>Welcome to my website</h2>
+		</header>
+
+		<hr />
+
+		<header>
+			<h2>Last publications</h2>
+		</header>
+		<div class="row">
+			{% for post in site.categories.publication limit:3 %}
+				<section class="4u">
+	                {% for teaser in post.teaser%}
+						<!-- <a class="image small"><img src="{{teaser}}" alt="" class="medium"></a > -->
+						<a href="{{post.url}}" class="image medium"><img src="{{teaser}}" alt=""></a >
+					{%endfor%}
+					<a href="{{post.url}}"><h3>{{post.title}}</h3></a>
+					<!-- <h3>{{post.title}}</h3> -->
+					<p>{{post.conference}}</p>
+				</section>
+			{%endfor%}
+		</div>
+		<hr />
+
+		<header>
+			<h2>Projects</h2>
+		</header>
+		<div class="row">
+			<section class="4u">
+				<br />
+			</section>
+			<section class="4u">
+				<a href="https://rnakanishi.github.io/voronowledge/" target="_blank">
+					<span class="pennant"><img src="/assets/images/voronowledge-logo.png" alt="Voronowledge" class="image small"></span>
+					<h3 style="font-family:'Vidaloka',serif;">Voronowledge</h3>
+				</a>
+				<p>A compilation of geometry, fluid simulations, continuum mechanics studies.</p>
+				<p><i>Under construction</i></p>
+				<a href="https://rnakanishi.github.io/voronowledge/" class="button button-style1" target="_blank">Read More</a>
+			</section>
+			<section class="4u">
+				<br />
+			</section>
+		</div>
+	</div>
+</div>

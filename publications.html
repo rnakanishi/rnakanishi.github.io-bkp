@@ -1,59 +1,61 @@
 ---
-layout: page
+layout: default
 title: Publications
 permalink: /publications
 ---
 
-{% for post in site.posts %}
-    {% if post.category == "publication" %}
-        {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-        {% capture previous_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
-        {% capture next_year %}{{ post.next.date | date: "%Y" }}{% endcapture %}
+<section id="banner">
+    <div class="inner">
+        <h2>Publications</h2>
+    </div>
+</section>
 
-        {% if this_year != next_year %}
-            <h1>{{this_year}}</h1>
-        {% endif %}
-        <br />
-        <div class="row">
-            <section class="6u">
-                <header>
-                    <a href="{{post.url}}"><h2><b>{{post.title}}</b></h2></a>
+<section id="main" class="wrapper style1">
+	{% for post in site.posts %}
+	    {% if post.category == "publication" %}
+	        {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+	        {% capture previous_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+	        {% capture next_year %}{{ post.next.date | date: "%Y" }}{% endcapture %}
 
-                    <h3 class="authors">
-                    {% for auth in post.authors %}
-                        {% if auth.site %}
-                            <a href="{{auth.site}}" target="_blank">
-                                {% unless forloop.last %}
-                                    {{auth.name}},
-                                {%else%}
-                                    {{auth.name}}
-                                {%endunless%}
-                            </a>
-                        {% else %}
-                            {% unless forloop.last %}
-                                {{auth.name}},
-                            {%else%}
-                                {{auth.name}}
-                            {%endunless%}
-                        {%endif%}
-                    {% endfor %}
-                    </h3>
-
-                    <h3><i>{{post.conference}}</i></h3>
-                    {% for teaser in post.teaser%}
-                    <a href="{{post.url}}"  class="image full"><img src="{{teaser}}" alt=""></a>
-                    {% endfor %}
-                </header>
-            </section>
-            <section class="6u">
-                <p><b>Abstract: </b> {{post.abstract}}</p>
-
-            </section>
-        </div>
-
-
-        {% if this_year != previous_year %}
-            <hr />
-        {% endif %}
-    {%endif%}
-{%endfor%}
+			<div class="wrapper {% cycle 'style1', 'style2' %}">
+	        <!-- {% if this_year != next_year %}
+	            <h1>{{this_year}}</h1>
+	        {% endif %} -->
+	        <!-- <br /> -->
+	            <section class="container">
+					<div class="row">
+		                <div class="6u">
+		                    <a href="{{post.url}}"><h2><b>{{post.title}}</b></h2></a>
+		                    {% for teaser in post.teaser%}
+		                    <a href="{{post.url}}"  class="image fit"><img src="{{teaser}}" alt=""></a>
+		                    {% endfor %}
+		                </div>
+						<div class="6u">
+							<h3 class="authors">
+							{% for auth in post.authors %}
+								{% if auth.site %}
+									<a href="{{auth.site}}" target="_blank">
+										{% unless forloop.last %}
+											{{auth.name}},
+										{%else%}
+											{{auth.name}}
+										{%endunless%}
+									</a>
+								{% else %}
+									{% unless forloop.last %}
+										{{auth.name}},
+									{%else%}
+										{{auth.name}}
+									{%endunless%}
+								{%endif%}
+							{% endfor %}
+							</h3>
+							<h4><i>{{post.conference}}</i>, {{this_year}}</h4>
+							<p><b>Abstract: </b> {{post.abstract}}</p>
+						</div>
+		            </section>
+				</div>
+			</div>
+	    {%endif%}
+	{%endfor%}
+</section>
