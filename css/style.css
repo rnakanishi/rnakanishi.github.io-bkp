@@ -488,11 +488,24 @@
 			width: 100%;
 		}
 
-		.image.med {
+		.image.medium {
 			display: block;
-			margin: 0 0 2em 0;
+			margin: auto;
 			width: 75%;
 		}
+
+		.image.small {
+			display: block;
+			margin: auto;
+			width: 50%;
+		}
+
+		.image.smaller {
+			display: block;
+			margin: auto;
+			width: 25%;
+		}
+
 
 			.image.fit img {
 				display: block;
@@ -1099,3 +1112,22 @@
 		#footer .icons a {
 			color: #bbb;
 		}
+
+/* Post content */
+
+.post-content {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.post-content > h1, .post-title{
+	font-size: 2em;
+	color: #366091;
+	font-weight: bolder;
+	/*font-weight: 500;*/
+	line-height: 2em;
+}
+
+.post-content > h2{
+	color: #4f81bd;
+}
