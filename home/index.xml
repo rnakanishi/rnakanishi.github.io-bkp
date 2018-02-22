@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Personal blog</title>
+    <link>https://rnakanishi.github.io/home/</link>
+    <description>Recent content in Homes on Personal blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://rnakanishi.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://rnakanishi.github.io/home/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rnakanishi.github.io/home/about/</guid>
+      <description>Summary I have bachelor in Computer Sciences by University of São Paulo, Brazil. Currently I am PhD. candidate at the same University. My main interests are: Computer graphics, physics based simulation, illustration, concept art and rigging.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://rnakanishi.github.io/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://rnakanishi.github.io/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>subheader</title>
+      <link>https://rnakanishi.github.io/home/subheader/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rnakanishi.github.io/home/subheader/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
