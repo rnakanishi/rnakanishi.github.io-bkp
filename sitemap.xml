@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://rnakanishi.github.io/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rnakanishi.github.io/home/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rnakanishi.github.io/home/projects/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rnakanishi.github.io/post/</loc>
+    <lastmod>2017-03-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rnakanishi.github.io/publication/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rnakanishi.github.io/publication/2016-10-04-partial-retrieval/</loc>
+    <lastmod>2016-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rnakanishi.github.io/publication/2016-05-24-master-thesis/</loc>
+    <lastmod>2016-05-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rnakanishi.github.io/project/voronowledge/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rnakanishi.github.io/post/2016-02-20-wakayama-ryuugakusei/</loc>
+    <lastmod>2016-02-27T14:37:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rnakanishi.github.io/publication/2015-05-01-shrec/</loc>
+    <lastmod>2015-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rnakanishi.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rnakanishi.github.io/tags/deep-learning/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rnakanishi.github.io/home/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rnakanishi.github.io/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rnakanishi.github.io/project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rnakanishi.github.io/tags/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rnakanishi.github.io/categories/update-blog-japan/</loc>
+    <lastmod>2016-02-27T14:37:44+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rnakanishi.github.io/home/subheader/</loc>
+  </url>
+  
+</urlset>
