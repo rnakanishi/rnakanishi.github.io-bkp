@@ -3,72 +3,72 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://rnakanishi.github.io/pt/sobre/</loc>
+    <loc>https://rnakanishi.github.io/pt/sobre/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://rnakanishi.github.io/about/"
+                href="https://rnakanishi.github.io/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://rnakanishi.github.io/pt/sobre/"
+                href="https://rnakanishi.github.io/pt/sobre/"
                 />
   </url>
   
   <url>
-    <loc>http://rnakanishi.github.io/pt/author/</loc>
+    <loc>https://rnakanishi.github.io/pt/author/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://rnakanishi.github.io/author/"
+                href="https://rnakanishi.github.io/author/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://rnakanishi.github.io/pt/author/"
+                href="https://rnakanishi.github.io/pt/author/"
                 />
   </url>
   
   <url>
-    <loc>http://rnakanishi.github.io/pt/categories/</loc>
+    <loc>https://rnakanishi.github.io/pt/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://rnakanishi.github.io/categories/"
+                href="https://rnakanishi.github.io/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://rnakanishi.github.io/pt/categories/"
+                href="https://rnakanishi.github.io/pt/categories/"
                 />
   </url>
   
   <url>
-    <loc>http://rnakanishi.github.io/pt/</loc>
+    <loc>https://rnakanishi.github.io/pt/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://rnakanishi.github.io/"
+                href="https://rnakanishi.github.io/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://rnakanishi.github.io/pt/"
+                href="https://rnakanishi.github.io/pt/"
                 />
   </url>
   
   <url>
-    <loc>http://rnakanishi.github.io/pt/tags/</loc>
+    <loc>https://rnakanishi.github.io/pt/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://rnakanishi.github.io/tags/"
+                href="https://rnakanishi.github.io/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://rnakanishi.github.io/pt/tags/"
+                href="https://rnakanishi.github.io/pt/tags/"
                 />
   </url>
   

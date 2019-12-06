@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on My blog</title>
-    <link>http://rnakanishi.github.io/blog/</link>
+    <link>https://rnakanishi.github.io/blog/</link>
     <description>Recent content in Blog on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <lastBuildDate>Sat, 27 Feb 2016 14:37:44 +0000</lastBuildDate>
     
-	<atom:link href="http://rnakanishi.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rnakanishi.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>和歌山県人会　の 交流実験</title>
-      <link>http://rnakanishi.github.io/blog/2016-02-20-wakayama-ryuugakusei/</link>
+      <link>https://rnakanishi.github.io/blog/2016-02-20-wakayama-ryuugakusei/</link>
       <pubDate>Sat, 27 Feb 2016 14:37:44 +0000</pubDate>
       
-      <guid>http://rnakanishi.github.io/blog/2016-02-20-wakayama-ryuugakusei/</guid>
+      <guid>https://rnakanishi.github.io/blog/2016-02-20-wakayama-ryuugakusei/</guid>
       <description>&lt;p&gt;この交流プログラムの目的は、昔に中南米へ行きました和歌山の人の子孫に日本の文化を知ってもらうことです。和歌山の町と、生活と、観光場所を経験できるようなプログラムです。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Hugo is for lovers</title>
-      <link>http://rnakanishi.github.io/blog/hugo-is-for-lovers/</link>
+      <link>https://rnakanishi.github.io/blog/hugo-is-for-lovers/</link>
       <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
       
-      <guid>http://rnakanishi.github.io/blog/hugo-is-for-lovers/</guid>
+      <guid>https://rnakanishi.github.io/blog/hugo-is-for-lovers/</guid>
       <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.</description>
     </item>
     
     <item>
       <title>Creating a new theme</title>
-      <link>http://rnakanishi.github.io/blog/creating-a-new-theme/</link>
+      <link>https://rnakanishi.github.io/blog/creating-a-new-theme/</link>
       <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
       
-      <guid>http://rnakanishi.github.io/blog/creating-a-new-theme/</guid>
+      <guid>https://rnakanishi.github.io/blog/creating-a-new-theme/</guid>
       <description>Introduction This tutorial will show you how to create a simple theme in Hugo.</description>
     </item>
     

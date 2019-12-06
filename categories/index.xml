@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on My blog</title>
-    <link>http://rnakanishi.github.io/categories/</link>
+    <link>https://rnakanishi.github.io/categories/</link>
     <description>Recent content in Categories on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <lastBuildDate>Sat, 27 Feb 2016 14:37:44 +0000</lastBuildDate>
     
-	<atom:link href="http://rnakanishi.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rnakanishi.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>update, blog, japan</title>
-      <link>http://rnakanishi.github.io/categories/update-blog-japan/</link>
+      <link>https://rnakanishi.github.io/categories/update-blog-japan/</link>
       <pubDate>Sat, 27 Feb 2016 14:37:44 +0000</pubDate>
       
-      <guid>http://rnakanishi.github.io/categories/update-blog-japan/</guid>
+      <guid>https://rnakanishi.github.io/categories/update-blog-japan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pseudo</title>
-      <link>http://rnakanishi.github.io/categories/pseudo/</link>
+      <link>https://rnakanishi.github.io/categories/pseudo/</link>
       <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
       
-      <guid>http://rnakanishi.github.io/categories/pseudo/</guid>
+      <guid>https://rnakanishi.github.io/categories/pseudo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blog</title>
-      <link>http://rnakanishi.github.io/categories/blog/</link>
+      <link>https://rnakanishi.github.io/categories/blog/</link>
       <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
       
-      <guid>http://rnakanishi.github.io/categories/blog/</guid>
+      <guid>https://rnakanishi.github.io/categories/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>starting</title>
-      <link>http://rnakanishi.github.io/categories/starting/</link>
+      <link>https://rnakanishi.github.io/categories/starting/</link>
       <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
       
-      <guid>http://rnakanishi.github.io/categories/starting/</guid>
+      <guid>https://rnakanishi.github.io/categories/starting/</guid>
       <description></description>
     </item>
     

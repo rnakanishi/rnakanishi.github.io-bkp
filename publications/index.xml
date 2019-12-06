@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on My blog</title>
-    <link>http://rnakanishi.github.io/publications/</link>
+    <link>https://rnakanishi.github.io/publications/</link>
     <description>Recent content in Publications on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <lastBuildDate>Tue, 04 Oct 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://rnakanishi.github.io/publications/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rnakanishi.github.io/publications/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Partial similarity of 3D shapes using cross recurrence plot</title>
-      <link>http://rnakanishi.github.io/publications/2016-10-04-partial-retrieval/</link>
+      <link>https://rnakanishi.github.io/publications/2016-10-04-partial-retrieval/</link>
       <pubDate>Tue, 04 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://rnakanishi.github.io/publications/2016-10-04-partial-retrieval/</guid>
+      <guid>https://rnakanishi.github.io/publications/2016-10-04-partial-retrieval/</guid>
       <description>&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
 &lt;p&gt;This paper presents a novel 3D partial shape retrieval algorithm based on time-series analysis. Given a piece of a 3D shape, the proposed method encodes the shape descriptor given by the Heat Kernel Signature (HKS) as a time-series, where the time is considered an ordered sequence of vertices provided by the Fiedler vector. Finally, a similarity metric is created using a well-known tool in time-series analysis called Cross Recurrence Plot (CRP). The good performance of our method is also attested in a large collection of shape models.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>3D shape retrieval using temporal series features</title>
-      <link>http://rnakanishi.github.io/publications/2016-05-24-master-thesis/</link>
+      <link>https://rnakanishi.github.io/publications/2016-05-24-master-thesis/</link>
       <pubDate>Tue, 24 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://rnakanishi.github.io/publications/2016-05-24-master-thesis/</guid>
+      <guid>https://rnakanishi.github.io/publications/2016-05-24-master-thesis/</guid>
       <description>&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
 &lt;p&gt;With the increasing data storage capacity of databases and personal computers, arises the necessity of computer algorithms capable of performing processing for automatic recovery of data and information.
 This fact is no different for three-dimensional objects stored in files.
@@ -39,10 +39,10 @@ In the case of partial retrieval of objects, in which only a part of the object 
     
     <item>
       <title>SHREC’15 Track: Non-rigid 3D Shape Retrieval</title>
-      <link>http://rnakanishi.github.io/publications/2015-05-01-shrec/</link>
+      <link>https://rnakanishi.github.io/publications/2015-05-01-shrec/</link>
       <pubDate>Fri, 01 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://rnakanishi.github.io/publications/2015-05-01-shrec/</guid>
+      <guid>https://rnakanishi.github.io/publications/2015-05-01-shrec/</guid>
       <description>&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
 &lt;p&gt;Non-rigid 3D shape retrieval has become a research hotpot in communities of computer graphics, computer vision, pattern recognition, etc. In this paper, we present the results of the SHREC’15 Track: Non-rigid 3D Shape Retrieval. The aim of this track is to provide a fair and effective platform to evaluate and compare the performance of current non-rigid 3D shape retrieval methods developed by different research groups around the world. The database utilized in this track consists of 1200 3D watertight triangle meshes which are equally classified into 50 categories. All models in the same category are generated from an original 3D mesh by implementing various pose transformations. The retrieval performance of a method is evaluated using 6 commonly-used measures (i.e., PR-plot, NN, FT, ST, E-measure and DCG.). Totally, there are 37 submissions and 11 groups taking part in this track. Evaluation results and comparison analyses described in this paper not only show the bright future in researches of non-rigid 3D shape retrieval but also point out several promising research directions in this topic.&lt;/p&gt;</description>
     </item>

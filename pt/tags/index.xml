@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Meu blog</title>
-    <link>http://rnakanishi.github.io/pt/tags/</link>
+    <link>https://rnakanishi.github.io/pt/tags/</link>
     <description>Recent content in Tags on Meu blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     
-	<atom:link href="http://rnakanishi.github.io/pt/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rnakanishi.github.io/pt/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

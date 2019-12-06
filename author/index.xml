@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Author on My blog</title>
-    <link>http://rnakanishi.github.io/author/</link>
+    <link>https://rnakanishi.github.io/author/</link>
     <description>Recent content in Author on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <lastBuildDate>Sat, 27 Feb 2016 14:37:44 +0000</lastBuildDate>
     
-	<atom:link href="http://rnakanishi.github.io/author/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rnakanishi.github.io/author/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>http://rnakanishi.github.io/author/rnakanishi/</link>
+      <link>https://rnakanishi.github.io/author/rnakanishi/</link>
       <pubDate>Sat, 27 Feb 2016 14:37:44 +0000</pubDate>
       
-      <guid>http://rnakanishi.github.io/author/rnakanishi/</guid>
+      <guid>https://rnakanishi.github.io/author/rnakanishi/</guid>
       <description>PLO Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu magna arcu.</description>
     </item>
     
     <item>
       <title>plotplo</title>
-      <link>http://rnakanishi.github.io/author/plotplo/</link>
+      <link>https://rnakanishi.github.io/author/plotplo/</link>
       <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
       
-      <guid>http://rnakanishi.github.io/author/plotplo/</guid>
+      <guid>https://rnakanishi.github.io/author/plotplo/</guid>
       <description></description>
     </item>
     
