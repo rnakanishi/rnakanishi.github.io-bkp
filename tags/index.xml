@@ -1,22 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Personal blog</title>
-    <link>https://rnakanishi.github.io/tags/</link>
-    <description>Recent content in Tags on Personal blog</description>
+    <title>Tags on My blog</title>
+    <link>http://rnakanishi.github.io/tags/</link>
+    <description>Recent content in Tags on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2015 13:39:46 +0200</lastBuildDate>
     
-	<atom:link href="https://rnakanishi.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://rnakanishi.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Deep Learning</title>
-      <link>https://rnakanishi.github.io/tags/deep-learning/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <title>hugo</title>
+      <link>http://rnakanishi.github.io/tags/hugo/</link>
+      <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
       
-      <guid>https://rnakanishi.github.io/tags/deep-learning/</guid>
+      <guid>http://rnakanishi.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>theme</title>
+      <link>http://rnakanishi.github.io/tags/theme/</link>
+      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
+      
+      <guid>http://rnakanishi.github.io/tags/theme/</guid>
       <description></description>
     </item>
     

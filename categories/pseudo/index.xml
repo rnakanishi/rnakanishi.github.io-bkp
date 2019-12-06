@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pseudo on My blog</title>
+    <link>http://rnakanishi.github.io/categories/pseudo/</link>
+    <description>Recent content in pseudo on My blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Mon, 03 Aug 2015 13:39:46 +0200</lastBuildDate>
+    
+	<atom:link href="http://rnakanishi.github.io/categories/pseudo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo is for lovers</title>
+      <link>http://rnakanishi.github.io/blog/hugo-is-for-lovers/</link>
+      <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
+      
+      <guid>http://rnakanishi.github.io/blog/hugo-is-for-lovers/</guid>
+      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.</description>
+    </item>
+    
+  </channel>
+</rss>

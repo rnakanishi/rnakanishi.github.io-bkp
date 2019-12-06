@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meu blog</title>
+    <link>http://rnakanishi.github.io/pt/</link>
+    <description>Recent content on Meu blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    
+	<atom:link href="http://rnakanishi.github.io/pt/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://rnakanishi.github.io/pt/sobre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://rnakanishi.github.io/pt/sobre/</guid>
+      <description>Tempor tempor amet dolore duis et exercitation mollit. Ullamco dolore proident exercitation enim anim sunt voluptate ut.</description>
+    </item>
+    
+  </channel>
+</rss>

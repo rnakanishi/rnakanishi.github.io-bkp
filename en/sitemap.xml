@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://rnakanishi.github.io/</loc>
+    <lastmod>2016-10-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://rnakanishi.github.io/pt/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://rnakanishi.github.io/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://rnakanishi.github.io/publications/2016-10-04-partial-retrieval/</loc>
+    <lastmod>2016-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rnakanishi.github.io/publications/</loc>
+    <lastmod>2016-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rnakanishi.github.io/publications/2016-05-24-master-thesis/</loc>
+    <lastmod>2016-05-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rnakanishi.github.io/author/rnakanishi/</loc>
+    <lastmod>2016-02-27T14:37:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rnakanishi.github.io/author/</loc>
+    <lastmod>2016-02-27T14:37:44+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://rnakanishi.github.io/pt/author/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://rnakanishi.github.io/author/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://rnakanishi.github.io/blog/</loc>
+    <lastmod>2016-02-27T14:37:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rnakanishi.github.io/categories/</loc>
+    <lastmod>2016-02-27T14:37:44+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://rnakanishi.github.io/pt/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://rnakanishi.github.io/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://rnakanishi.github.io/categories/update-blog-japan/</loc>
+    <lastmod>2016-02-27T14:37:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rnakanishi.github.io/blog/2016-02-20-wakayama-ryuugakusei/</loc>
+    <lastmod>2016-02-27T14:37:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rnakanishi.github.io/tags/hugo/</loc>
+    <lastmod>2015-08-03T13:39:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rnakanishi.github.io/blog/hugo-is-for-lovers/</loc>
+    <lastmod>2015-08-03T13:39:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rnakanishi.github.io/categories/pseudo/</loc>
+    <lastmod>2015-08-03T13:39:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rnakanishi.github.io/tags/</loc>
+    <lastmod>2015-08-03T13:39:46+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://rnakanishi.github.io/pt/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://rnakanishi.github.io/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://rnakanishi.github.io/categories/blog/</loc>
+    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rnakanishi.github.io/blog/creating-a-new-theme/</loc>
+    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rnakanishi.github.io/author/plotplo/</loc>
+    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rnakanishi.github.io/categories/starting/</loc>
+    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rnakanishi.github.io/tags/theme/</loc>
+    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rnakanishi.github.io/publications/2015-05-01-shrec/</loc>
+    <lastmod>2015-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rnakanishi.github.io/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://rnakanishi.github.io/pt/sobre/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://rnakanishi.github.io/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://rnakanishi.github.io/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>http://rnakanishi.github.io/work/</loc>
+  </url>
+  
+</urlset>
