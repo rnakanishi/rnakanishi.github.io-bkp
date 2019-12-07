@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolio on My blog</title>
+    <link>https://rnakanishi.github.io/portfolio/</link>
+    <description>Recent content in Portfolio on My blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Sat, 07 Dec 2019 22:10:08 +0900</lastBuildDate>
+    
+	<atom:link href="https://rnakanishi.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Particles Banner</title>
+      <link>https://rnakanishi.github.io/portfolio/particles-banner/</link>
+      <pubDate>Sat, 07 Dec 2019 22:10:08 +0900</pubDate>
+      
+      <guid>https://rnakanishi.github.io/portfolio/particles-banner/</guid>
+      <description>Particles Banner Some small tests with particle system in Blender</description>
+    </item>
+    
+  </channel>
+</rss>

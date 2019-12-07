@@ -3,8 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://rnakanishi.github.io/author/rnakanishi/</loc>
+    <lastmod>2019-12-07T22:10:08+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rnakanishi.github.io/author/</loc>
+    <lastmod>2019-12-07T22:10:08+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://rnakanishi.github.io/pt/author/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rnakanishi.github.io/author/"
+                />
+  </url>
+  
+  <url>
     <loc>https://rnakanishi.github.io/</loc>
-    <lastmod>2016-10-04T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-07T22:10:08+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -15,6 +35,36 @@
                 hreflang="en"
                 href="https://rnakanishi.github.io/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://rnakanishi.github.io/portfolio/particles-banner/</loc>
+    <lastmod>2019-12-07T22:10:08+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rnakanishi.github.io/portfolio/</loc>
+    <lastmod>2019-12-07T22:10:08+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rnakanishi.github.io/tags/</loc>
+    <lastmod>2019-12-07T22:10:08+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://rnakanishi.github.io/pt/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rnakanishi.github.io/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://rnakanishi.github.io/tags/vfx-blender/</loc>
+    <lastmod>2019-12-07T22:10:08+09:00</lastmod>
   </url>
   
   <url>
@@ -30,26 +80,6 @@
   <url>
     <loc>https://rnakanishi.github.io/publications/2016-05-24-master-thesis/</loc>
     <lastmod>2016-05-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rnakanishi.github.io/author/rnakanishi/</loc>
-    <lastmod>2016-02-27T14:37:44+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rnakanishi.github.io/author/</loc>
-    <lastmod>2016-02-27T14:37:44+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://rnakanishi.github.io/pt/author/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://rnakanishi.github.io/author/"
-                />
   </url>
   
   <url>
@@ -95,21 +125,6 @@
   <url>
     <loc>https://rnakanishi.github.io/categories/pseudo/</loc>
     <lastmod>2015-08-03T13:39:46+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rnakanishi.github.io/tags/</loc>
-    <lastmod>2015-08-03T13:39:46+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://rnakanishi.github.io/pt/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://rnakanishi.github.io/tags/"
-                />
   </url>
   
   <url>

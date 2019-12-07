@@ -6,10 +6,19 @@
     <description>Recent content on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Sat, 27 Feb 2016 14:37:44 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Dec 2019 22:10:08 +0900</lastBuildDate>
     
 	<atom:link href="https://rnakanishi.github.io/author/rnakanishi/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Particles Banner</title>
+      <link>https://rnakanishi.github.io/portfolio/particles-banner/</link>
+      <pubDate>Sat, 07 Dec 2019 22:10:08 +0900</pubDate>
+      
+      <guid>https://rnakanishi.github.io/portfolio/particles-banner/</guid>
+      <description>Particles Banner Some small tests with particle system in Blender</description>
+    </item>
     
     <item>
       <title>和歌山県人会　の 交流実験</title>
