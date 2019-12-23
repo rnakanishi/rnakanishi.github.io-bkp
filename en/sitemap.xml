@@ -68,6 +68,21 @@
   </url>
   
   <url>
+    <loc>https://rnakanishi.github.io/portfolio/ahri/</loc>
+    <lastmod>2018-06-13T10:06:30+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rnakanishi.github.io/portfolio/matsuri/</loc>
+    <lastmod>2018-06-11T10:06:38+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rnakanishi.github.io/portfolio/xman-ice/</loc>
+    <lastmod>2017-06-16T10:06:45+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://rnakanishi.github.io/publications/2016-10-04-partial-retrieval/</loc>
     <lastmod>2016-10-04T00:00:00+00:00</lastmod>
   </url>
@@ -169,6 +184,10 @@
                 hreflang="en"
                 href="https://rnakanishi.github.io/about/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://rnakanishi.github.io/portfolio/chandelure/</loc>
   </url>
   
   <url>
