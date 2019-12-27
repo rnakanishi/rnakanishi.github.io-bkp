@@ -6,10 +6,19 @@
     <description>Recent content on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Sat, 07 Dec 2019 22:10:08 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 26 Dec 2019 21:18:39 +0900</lastBuildDate>
     
 	<atom:link href="https://rnakanishi.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Original character - Will</title>
+      <link>https://rnakanishi.github.io/portfolio/will-001/</link>
+      <pubDate>Thu, 26 Dec 2019 21:18:39 +0900</pubDate>
+      
+      <guid>https://rnakanishi.github.io/portfolio/will-001/</guid>
+      <description>Original character - Will </description>
+    </item>
     
     <item>
       <title>Particles Banner</title>
