@@ -8,7 +8,7 @@
 
     <!-- Mobile Specific Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=0.5">
-    <meta name="generator" content="Hugo 0.60.0" />
+    <meta name="generator" content="Hugo 0.62.2" />
 
     <title>
         Creating a new theme | Blog</title>
@@ -17,12 +17,13 @@
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="https://rnakanishi.github.io/images/favicon.ico" />
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- CSS -->
     <!-- Fontawesome Icon font -->
     <link rel="stylesheet" href="https://rnakanishi.github.io/plugins/themefisher-font/style.css">
     <!-- bootstrap.min css -->
     <link rel="stylesheet" href="https://rnakanishi.github.io/plugins/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <!-- Animate.css -->
     <link rel="stylesheet" href="https://rnakanishi.github.io/plugins/animate-css/animate.css">
     <!-- Magnific popup css -->
@@ -89,8 +90,7 @@
             <div class="col-lg-8 offset-lg-2 text-center">
                 <h1>Creating a new theme</h1>
                 <ul class="list-inline mb-50">
-                    <li class="list-inline-item"><a href="/author/plotplo">plotplo</a>
-                    </li>
+                    <li class="list-inline-item"><a href="/author/plotplo">plotplo</a></li>
                     <li class="list-inline-item">Wednesday, Jun 24, 2015</li>
                 </ul>
                 <img class="img-fluid mb-50" src="https://rnakanishi.github.io/images/blog/blog-post-2.jpg" alt="blog-image">
@@ -326,7 +326,7 @@ $
 <li>Hugo created a js/ directory.</li>
 <li>Hugo claimed that it created 0 pages. It created a file and copied over static files, but didn't create any pages. That's because it considers a &ldquo;page&rdquo; to be a file created directly from a content file. It doesn't count things like the index.html files that it creates automatically.</li>
 </ol>
-<h4 id="the-home-page1">The Home Page</h4>
+<h4 id="the-home-page-1">The Home Page</h4>
 <p>Hugo supports many different types of templates. The home page is special because it gets its own type of template and its own template file. The file, layouts/index.html, is used to generate the HTML for the home page. The Hugo documentation says that this is the only required template, but that depends. Hugo's warning message shows that it looks for three different templates:</p>
 <pre><code>WARN: 2014/09/29 Unable to locate layout: [index.html _default/list.html _default/single.html]
 </code></pre><p>If it can't find any of these, it completely skips creating the home page. We noticed that when we built the site without having a theme installed.</p>
@@ -445,7 +445,7 @@ $ cat public/index.html
 &lt;body&gt;
   &lt;p&gt;hugo says hello!&lt;/p&gt;
 &lt;/html&gt;
-</code></pre><h4 id="live-reload1">Live Reload</h4>
+</code></pre><h4 id="live-reload-1">Live Reload</h4>
 <p>Note: If you're running the server with the <code>--watch</code> option, you'll see different content in the file:</p>
 <pre><code>$ cat public/index.html
 &lt;!DOCTYPE html&gt;
@@ -905,7 +905,7 @@ $ vi themes/zafta/layouts/_default/single.html
 <p>DRY is a good design goal and Hugo does a great job supporting it. Part of the art of a good template is knowing when to add a new template and when to update an existing one. While you're figuring that out, accept that you'll be doing some refactoring. Hugo makes that easy and fast, so it's okay to delay splitting up a template.</p>
 
                     
-                    
+                        
 
 <div class="social-share pt-4">
         <h4>Share:</h4>
@@ -986,13 +986,13 @@ $ vi themes/zafta/layouts/_default/single.html
 				<div class="social-icon">
 					<ul class="list-inline">
 						
-						<li class="list-inline-item"><a href="https://github.com/rnakanishi/" target="_blank"><i class="tf-ion-social-github"></i></a></li>
+						<li class="list-inline-item"><a href="https://github.com/rnakanishi/"><i class="tf-ion-social-github"></i></a></li>
 						
-						<li class="list-inline-item"><a href="https://twitter.com/rnaka_" target="_blank"><i class="tf-ion-social-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="https://twitter.com/rnaka_"><i class="tf-ion-social-twitter"></i></a></li>
 						
-						<li class="list-inline-item"><a href="https://www.artstation.com/rnakamon" target="_blank"><i class="fab fa-artstation"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.artstation.com/rnakanishi"><i class="fab fa-artstation"></i></a></li>
 						
-						<li class="list-inline-item"><a href="https://www.instagram.com/rnaka.art/" target="_blank"><i class="tf-ion-social-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.instagram.com/rnaka.art/"><i class="tf-ion-social-instagram"></i></a></li>
 						
 					</ul>
 				</div>
@@ -1049,7 +1049,7 @@ $ vi themes/zafta/layouts/_default/single.html
 			}, i[r].l = 1 * new Date(); a = s.createElement(o),
 				m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
 		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-	ga('create', 'UA-112428947-1', 'auto');
+	ga('create', 'Your ID', 'auto');
 	ga('send', 'pageview');
 </script></body>
 </html>
