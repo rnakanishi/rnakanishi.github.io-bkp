@@ -6,10 +6,19 @@
     <description>Recent content on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Thu, 26 Dec 2019 21:18:39 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jan 2020 07:38:04 +0900</lastBuildDate>
     
 	<atom:link href="https://rnakanishi.github.io/author/rnakanishi/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Evelynn</title>
+      <link>https://rnakanishi.github.io/portfolio/evelynn/</link>
+      <pubDate>Wed, 08 Jan 2020 07:38:04 +0900</pubDate>
+      
+      <guid>https://rnakanishi.github.io/portfolio/evelynn/</guid>
+      <description>Evelynn from League of Legends </description>
+    </item>
     
     <item>
       <title>Original character - Will</title>
