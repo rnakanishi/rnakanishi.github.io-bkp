@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My blog</title>
+    <title>RNakanishi</title>
     <link>https://rnakanishi.github.io/</link>
-    <description>Recent content on My blog</description>
+    <description>Recent content on RNakanishi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <lastBuildDate>Wed, 08 Jan 2020 07:38:04 +0900</lastBuildDate>
@@ -129,15 +129,6 @@ In the case of partial retrieval of objects, in which only a part of the object 
     </item>
     
     <item>
-      <title></title>
-      <link>https://rnakanishi.github.io/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rnakanishi.github.io/about/</guid>
-      <description>PLO Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu magna arcu.</description>
-    </item>
-    
-    <item>
       <title>Chandelure</title>
       <link>https://rnakanishi.github.io/portfolio/chandelure/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -153,6 +144,15 @@ In the case of partial retrieval of objects, in which only a part of the object 
       
       <guid>https://rnakanishi.github.io/contact/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Rafael Nakanishi</title>
+      <link>https://rnakanishi.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rnakanishi.github.io/about/</guid>
+      <description>Under construction</description>
     </item>
     
     <item>

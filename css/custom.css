@@ -1,0 +1,27 @@
+
+
+#about .media {
+  margin: 0px 0 40px 0;
+}
+
+#about .media .media-left {
+  padding-right: 15px;
+}
+
+#about .icon {
+  text-decoration: none;
+  color: #fff;
+  background-color: #02bdd5;
+  height: 75px;
+  text-align: center;
+  width: 75px;
+  font-size: 40px;
+  line-height: 75px;
+  overflow: hidden;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  
+}

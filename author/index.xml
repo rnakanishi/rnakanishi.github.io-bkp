@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Author on My blog</title>
+    <title>Author on RNakanishi</title>
     <link>https://rnakanishi.github.io/author/</link>
-    <description>Recent content in Author on My blog</description>
+    <description>Recent content in Author on RNakanishi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <lastBuildDate>Wed, 08 Jan 2020 07:38:04 +0900</lastBuildDate>
@@ -17,7 +17,7 @@
       <pubDate>Wed, 08 Jan 2020 07:38:04 +0900</pubDate>
       
       <guid>https://rnakanishi.github.io/author/rnakanishi/</guid>
-      <description>PLO Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu magna arcu.</description>
+      <description></description>
     </item>
     
     <item>
