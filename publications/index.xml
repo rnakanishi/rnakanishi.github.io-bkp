@@ -17,7 +17,7 @@
       <pubDate>Wed, 19 Aug 2020 09:39:36 -0300</pubDate>
       
       <guid>https://rnakanishi.github.io/publications/rbf-liquids-adaptive-pic-solver-using-rbf/</guid>
-      <description>In this paper</description>
+      <description>We introduce a liquid simulation approach that combines an adaptive pressure projection solver with PIC. The solver relies on RBF-FD to approximate the pressure field and its gradients in quadtrees/octrees.</description>
     </item>
     
     <item>
