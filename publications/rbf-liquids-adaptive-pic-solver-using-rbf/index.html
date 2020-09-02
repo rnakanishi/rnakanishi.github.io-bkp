@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-br"><head>
+  <!-- Basic Page Needs -->
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+  <meta name="description"
+    content="">
+  
+  <meta name="generator" content="Hugo 0.74.3" />
+
+  <!-- Mobile Specific Metas -->
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RBF Liquids: An Adaptive Pic Solver Using RBF-FD</title>
+  <link rel="icon" href="https://rnakanishi.github.io/images/favicon.ico">
+
+
+  <script src="https://kit.fontawesome.com/2096c895d7.js" crossorigin="anonymous"></script>
+
+  <!-- Twitter Bootstrs CSS -->
+  <link rel="stylesheet" href="https://rnakanishi.github.io/plugins/bootstrap/bootstrap.min.css">
+  <!-- Ionicons Fonts Css -->
+  <link rel="stylesheet" href="https://rnakanishi.github.io/plugins/ionicons/ionicons.min.css">
+  <!-- animate css -->
+  <link rel="stylesheet" href="https://rnakanishi.github.io/plugins/animate-css/animate.css">
+  <!-- Hero area slider css-->
+  <link rel="stylesheet" href="https://rnakanishi.github.io/plugins/slider/slider.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="https://rnakanishi.github.io/plugins/slick/slick.css">
+  <!-- Fancybox -->
+  <link rel="stylesheet" href="https://rnakanishi.github.io/plugins/facncybox/jquery.fancybox.css">
+  <!-- hover -->
+  <link rel="stylesheet" href="https://rnakanishi.github.io/plugins/hover/hover-min.css">
+  <!-- template main css file -->
+  
+  <link rel="stylesheet" href="https://rnakanishi.github.io/css/style.min.css" integrity="" media="screen">
+
+</head><body><section class="top-bar animated-header">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+					<a class="navbar-brand" href="https://rnakanishi.github.io/">
+						<img src="https://rnakanishi.github.io/images/logo4.png" alt="RNakanishi">
+					</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+						aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navigation">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="https://rnakanishi.github.io/">Home</a>
+							</li>
+							
+							<li class="nav-item">
+								<a class="nav-link" href="https://rnakanishi.github.io/about">About</a>
+							</li>
+							
+							<li class="nav-item">
+								<a class="nav-link" href="https://rnakanishi.github.io/publications">Publications</a>
+							</li>
+							
+							<li class="nav-item">
+								<a class="nav-link" href="https://rnakanishi.github.io/blog">Blog</a>
+							</li>
+							
+							<li class="nav-item">
+								<a class="nav-link" href="https://rnakanishi.github.io/contact">Contact</a>
+							</li>
+							
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="global-page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h2>RBF Liquids: An Adaptive Pic Solver Using RBF-FD</h2>
+                    <div class="portfolio-meta-authors">
+                        <h4>
+                            
+                            <span>
+                                <a href=https://rnakanishi.github.io/>
+                                    Rafael Nakanishi
+                                </a>
+                            </span>
+                            
+                            <span>
+                                <a href=https://filipecn.github.io/>
+                                    Filipe Nascimento
+                                </a>
+                            </span>
+                            
+                            <span>
+                                <a href=https://www.campos.cc/>
+                                    Rafael Campos
+                                </a>
+                            </span>
+                            
+                            <span>
+                                <a href=http://www.facom.ufms.br/~pagliosa/>
+                                    Paulo Pagliosa
+                                </a>
+                            </span>
+                            
+                            <span>
+                                <a href=https://sites.icmc.usp.br/apneto/>
+                                    Afonso Paiva
+                                </a>
+                            </span>
+                            
+                        </h4>
+                    </div>
+                    <div class="portfolio-meta">
+                        <span>Aug, 2020</span>|
+
+                        
+                        <span>
+                            ACM Siggraph Asia 2020
+                        </span>
+                        
+
+                        
+                        |<span>
+                            ACM Transactions on Graphics
+                        </span>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="single-post">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-md-12 col-lg-10">
+                
+                <div class="post-img">
+                    <img class="img-fluid" alt="" src="https://rnakanishi.github.io/publications/siggraph-2020.png">
+                </div>
+                
+                <div class="post-content">
+                    <h1 id="abstract">Abstract</h1>
+<p>We introduce a novel liquid simulation approach that combines a spatially adaptive pressure projection solver with the Particle-in-Cell (PIC) method. The solver relies on a generalized version of the Finite Difference (FD) method to approximate the pressure field and its gradients in tree-based grid discretizations, possibly non-graded. In our approach, FD stencils are computed by using meshfree interpolations provided by a variant of Radial Basis Function (RBF), known as RBF-Finite-Difference (RBF-FD).  This meshfree version of the FD produces differentiation weights on scattered nodes with high-order accuracy. Our method adapts a quadtree/octree dynamically in a narrow-band around the liquid interface, providing an adaptive particle sampling for the PIC advection step.
+Furthermore, RBF affords an accurate scheme for velocity transfer between the grid and particles, keeping the system&rsquo;s stability and avoiding numerical dissipation.  We also present a data structure that connects the spatial subdivision of a quadtree/octree with the topology of its corresponding dual-graph. Our data structure makes the setup of stencils straightforward, allowing its updating without the need to rebuild it from scratch at each time-step. We show the effectiveness and accuracy of our solver by simulating incompressible inviscid fluids and comparing results with regular PIC-based solvers available in the literature.</p>
+<!-- raw HTML omitted -->
+<h1 id="downloads">Downloads</h1>
+<!-- raw HTML omitted -->
+<ul>
+<li>Full paper (Coming soon)</li>
+</ul>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h1 id="video">Video</h1>
+<!-- raw HTML omitted -->
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/JVt8NoF81uI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p><!-- raw HTML omitted --></p>
+<h1 id="acknowledgements">Acknowledgements</h1>
+<p>We want to thank Fabrício Simeoni de Sousa and Antonio Castelo for insightful discussions throughout this work, and the SIGGRAPH Asia reviewers for their comments. We also thank Cristin Barghiel from SideFX for their kind donation of the Houdini licenses and Leonardo Martinussi for the computing infrastructure at ICMC-USP.</p>
+<p>This study was financed in part by the <em>Coordenação de Aperfeiçoamento de Pessoal de Nível Superior</em> - Brazil (CAPES), <em>National Council for Scientific and Technological Development</em> - Brazil (CNPq) fellowship #301642/2017-6, and <em>São Paulo Research Foundation</em> (FAPESP) under grants  #2018/06145-4 and #2019/23215-9.</p>
+<p>The computational resources were provided by the <a href="http://www.cemeai.icmc.usp.br/">Center for
+Mathematical Sciences Applied to Industry</a> (CeMEAI), also funded by FAPESP (grant #2013/07375).</p>
+
+                </div>
+            </div>
+            <div class="col-lg-1"></div>
+
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Call To Action Section Start -->
+<section id="call-to-action">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h2 class="title wow fadeInDown" data-wow-delay=".3s"
+                        data-wow-duration="500ms">Keep in touch</h1>
+                        <p class="wow fadeInDown" data-wow-delay=".5s"
+                            data-wow-duration="500ms">For doubts, critiques and suggestion, feel free to send me an e-mail, or through social links below</p>
+                        <a href="mailto:rafael.umino.nakanishi@gmail.com" target="_blank"
+                            class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s"
+                            data-wow-duration="500ms">E-mail contact</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+<!-- Call To Action Section End -->
+
+
+<!-- Footer Section Start -->
+<footer id="footer">
+    <div class="container">
+        <div class="row content-justify-between">
+            <div class="col-md-8 col-12 text-center text-lg-left text-md-left">
+                <p class="copyright">Copyright:
+                    <span>
+                        <script>document.write(new Date().getFullYear())</script>
+                    </span> Design and Developed by
+                    <a href="http://www.Themefisher.com" target="_blank">Themefisher</a>.
+                    <br> Get More Bootstrap Template From Our
+                    <a href="https://themefisher.com/free-bootstrap-templates/" target="_blank">Store</a>
+                </p>
+            </div>
+            <div class="col-md-4 col-12">
+                <!-- Social Media -->
+                <ul class="social text-center text-md-right text-lg-right">
+                    
+                    <li><a href="https://twitter.com/rnaka_"><i class="fab fa-twitter"></i></a></li>
+                    
+                    <li><a href="https://github.com/rnakanishi/"><i class="fab fa-github"></i></a></li>
+                    
+                    <li><a href="https://www.instagram.com/rnaka_/"><i class="fab fa-instagram"></i></a></li>
+                    
+                    <li><a href="https://www.linkedin.com/in/rnakanishi"><i class="fab fa-linkedin-in"></i></a></li>
+                    
+                    <li><a href="https://orcid.org/0000-0002-4710-3301"><i class="fab fa-orcid"></i></a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- footer section end -->
+
+<!-- jquery -->
+<script src="https://rnakanishi.github.io/plugins/jQurey/jquery.min.js"></script>
+<!-- Form Validation -->
+<script src="https://rnakanishi.github.io/plugins/form-validation/jquery.form.js"></script>
+<script src="https://rnakanishi.github.io/plugins/form-validation/jquery.validate.min.js"></script>
+<!-- slick slider -->
+<script src="https://rnakanishi.github.io/plugins/slick/slick.min.js"></script>
+<!-- bootstrap js -->
+<script src="https://rnakanishi.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+<!-- wow js -->
+<script src="https://rnakanishi.github.io/plugins/wow-js/wow.min.js"></script>
+<!-- slider js -->
+<script src="https://rnakanishi.github.io/plugins/slider/slider.js"></script>
+<!-- Fancybox -->
+<script src="https://rnakanishi.github.io/plugins/facncybox/jquery.fancybox.js"></script>
+<!-- template main js -->
+
+<script src="https://rnakanishi.github.io/js/script.min.js"></script>
+<!-- google analitycs -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-112428947-1', 'auto');
+    ga('send', 'pageview');
+</script></body>
+</html>

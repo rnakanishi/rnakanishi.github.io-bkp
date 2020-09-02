@@ -6,10 +6,19 @@
     <description>Recent content in Publications on RNakanishi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Tue, 04 Oct 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2020 09:39:36 -0300</lastBuildDate>
     
 	<atom:link href="https://rnakanishi.github.io/publications/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>RBF Liquids: An Adaptive Pic Solver Using RBF-FD</title>
+      <link>https://rnakanishi.github.io/publications/rbf-liquids-adaptive-pic-solver-using-rbf/</link>
+      <pubDate>Wed, 19 Aug 2020 09:39:36 -0300</pubDate>
+      
+      <guid>https://rnakanishi.github.io/publications/rbf-liquids-adaptive-pic-solver-using-rbf/</guid>
+      <description>In this paper</description>
+    </item>
     
     <item>
       <title>Partial similarity of 3D shapes using cross recurrence plot</title>
