@@ -5,10 +5,6 @@
     <link>https://rnakanishi.github.io/pt/categories/</link>
     <description>Recent content in Categories on RNakanishi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language>
-    
-	<atom:link href="https://rnakanishi.github.io/pt/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>pt-br</language><atom:link href="https://rnakanishi.github.io/pt/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

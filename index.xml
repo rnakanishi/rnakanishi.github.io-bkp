@@ -6,11 +6,7 @@
     <description>Recent content on RNakanishi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Wed, 19 Aug 2020 09:39:36 -0300</lastBuildDate>
-    
-	<atom:link href="https://rnakanishi.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 19 Aug 2020 09:39:36 -0300</lastBuildDate><atom:link href="https://rnakanishi.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RBF Liquids: An Adaptive PIC Solver Using RBF-FD</title>
       <link>https://rnakanishi.github.io/publications/rbf-liquids-adaptive-pic-solver-using-rbf/</link>

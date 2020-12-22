@@ -1,42 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-br"><head>
-  <!-- Basic Page Needs -->
-  <meta charset="utf-8">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
-  <meta name="description"
-    content="">
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   
-  <meta name="generator" content="Hugo 0.74.3" />
-
-  <!-- Mobile Specific Metas -->
-  <meta name="format-detection" content="telephone=no">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>RBF Liquids: An Adaptive PIC Solver Using RBF-FD</title>
-  <link rel="icon" href="https://rnakanishi.github.io/images/favicon.ico">
-
-
-  <script src="https://kit.fontawesome.com/2096c895d7.js" crossorigin="anonymous"></script>
-
-  <!-- Twitter Bootstrs CSS -->
-  <link rel="stylesheet" href="https://rnakanishi.github.io/plugins/bootstrap/bootstrap.min.css">
-  <!-- Ionicons Fonts Css -->
-  <link rel="stylesheet" href="https://rnakanishi.github.io/plugins/ionicons/ionicons.min.css">
-  <!-- animate css -->
-  <link rel="stylesheet" href="https://rnakanishi.github.io/plugins/animate-css/animate.css">
-  <!-- Hero area slider css-->
-  <link rel="stylesheet" href="https://rnakanishi.github.io/plugins/slider/slider.css">
-  <!-- slick slider -->
-  <link rel="stylesheet" href="https://rnakanishi.github.io/plugins/slick/slick.css">
-  <!-- Fancybox -->
-  <link rel="stylesheet" href="https://rnakanishi.github.io/plugins/facncybox/jquery.fancybox.css">
-  <!-- hover -->
-  <link rel="stylesheet" href="https://rnakanishi.github.io/plugins/hover/hover-min.css">
-  <!-- template main css file -->
+    <meta name="description"
+      content="">
+    
+    <meta name="generator" content="Hugo 0.79.1" />
   
-  <link rel="stylesheet" href="https://rnakanishi.github.io/css/style.min.css" integrity="" media="screen">
-
-</head><body><section class="top-bar animated-header">
+    <!-- Mobile Specific Metas -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RBF Liquids: An Adaptive PIC Solver Using RBF-FD</title>
+    <link rel="icon" href="https://rnakanishi.github.io/images/favicon.ico">
+  
+  
+    <script src="https://kit.fontawesome.com/2096c895d7.js" crossorigin="anonymous"></script>
+  
+    <!-- Twitter Bootstrs CSS -->
+    <link rel="stylesheet" href="https://rnakanishi.github.io/plugins/bootstrap/bootstrap.min.css">
+    <!-- Ionicons Fonts Css -->
+    <link rel="stylesheet" href="https://rnakanishi.github.io/plugins/ionicons/ionicons.min.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="https://rnakanishi.github.io/plugins/animate-css/animate.css">
+    <!-- Hero area slider css-->
+    <link rel="stylesheet" href="https://rnakanishi.github.io/plugins/slider/slider.css">
+    <!-- slick slider -->
+    <link rel="stylesheet" href="https://rnakanishi.github.io/plugins/slick/slick.css">
+    <!-- Fancybox -->
+    <link rel="stylesheet" href="https://rnakanishi.github.io/plugins/facncybox/jquery.fancybox.css">
+    <!-- hover -->
+    <link rel="stylesheet" href="https://rnakanishi.github.io/plugins/hover/hover-min.css">
+  <link rel="stylesheet" type="text/css" href="https://rnakanishi.github.io/css/syntax.css">
+    <!-- template main css file -->
+    
+    <link rel="stylesheet" href="https://rnakanishi.github.io/css/style.min.css" integrity="" media="screen">
+  
+  </head><body><section class="top-bar animated-header">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
@@ -156,17 +157,41 @@
                     <h1 id="abstract">Abstract</h1>
 <p>We introduce a novel liquid simulation approach that combines a spatially adaptive pressure projection solver with the Particle-in-Cell (PIC) method. The solver relies on a generalized version of the Finite Difference (FD) method to approximate the pressure field and its gradients in tree-based grid discretizations, possibly non-graded. In our approach, FD stencils are computed by using meshfree interpolations provided by a variant of Radial Basis Function (RBF), known as RBF-Finite-Difference (RBF-FD).  This meshfree version of the FD produces differentiation weights on scattered nodes with high-order accuracy. Our method adapts a quadtree/octree dynamically in a narrow-band around the liquid interface, providing an adaptive particle sampling for the PIC advection step.
 Furthermore, RBF affords an accurate scheme for velocity transfer between the grid and particles, keeping the system&rsquo;s stability and avoiding numerical dissipation.  We also present a data structure that connects the spatial subdivision of a quadtree/octree with the topology of its corresponding dual-graph. Our data structure makes the setup of stencils straightforward, allowing its updating without the need to rebuild it from scratch at each time-step. We show the effectiveness and accuracy of our solver by simulating incompressible inviscid fluids and comparing results with regular PIC-based solvers available in the literature.</p>
-<!-- raw HTML omitted -->
+<p>DOI: <a href="https://doi.org/10.1145/3414685.3417794">10.1145/3414685.3417794</a></p>
 <h1 id="downloads">Downloads</h1>
 <p><a href="/files/rbf-sa2020.pdf"> <img src="/icons/adobepdf.icon.png" alt="PDF"> Full paper</a></p>
+<h2 id="bibtex">Bibtex</h2>
+<div class="highlight"><pre class="chroma"><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span> <span class="nl">Nakanishi2020RBF</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Nakanishi, Rafael and Nascimento, Filipe and Campos, Rafael and 
+</span><span class="s">            Pagliosa, Paulo and Paiva, Afonso}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{{RBF Liquids: An Adaptive PIC Solver Using RBF-FD}}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2020}</span><span class="p">,</span>
+  <span class="na">issue_date</span> <span class="p">=</span> <span class="s">{December 2020}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Association for Computing Machinery}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{New York, NY, USA}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{39}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{6}</span><span class="p">,</span>
+  <span class="na">issn</span> <span class="p">=</span> <span class="s">{0730-0301}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://doi.org/10.1145/3414685.3417794}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1145/3414685.3417794}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{ACM Trans. Graph.}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">nov</span><span class="p">,</span>
+  <span class="na">articleno</span> <span class="p">=</span> <span class="s">{170}</span><span class="p">,</span>
+  <span class="na">numpages</span> <span class="p">=</span> <span class="s">{13}</span><span class="p">,</span>
+  <span class="na">keywords</span> <span class="p">=</span> <span class="s">{radial basis function (RBF), particle-in-cell (PIC), liquid animation, adaptive grids}</span>
+<span class="p">}</span></code></pre></div>
+<h1 id="videos">Videos</h1>
 <!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<h1 id="video">Video</h1>
-<!-- raw HTML omitted -->
+<h2 id="short-teaser">Short teaser</h2>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube.com/embed/JVt8NoF81uI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h2 id="presentation">Presentation</h2>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/rKfCjhbrpj4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
 <p><!-- raw HTML omitted --></p>
