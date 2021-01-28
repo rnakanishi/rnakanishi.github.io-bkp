@@ -5,6 +5,10 @@
     <link>https://rnakanishi.github.io/pt/author/</link>
     <description>Recent content in Author on RNakanishi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language><atom:link href="https://rnakanishi.github.io/pt/author/index.xml" rel="self" type="application/rss+xml" />
+    <language>pt-br</language>
+    
+	<atom:link href="https://rnakanishi.github.io/pt/author/index.xml" rel="self" type="application/rss+xml" />
+    
+    
   </channel>
 </rss>

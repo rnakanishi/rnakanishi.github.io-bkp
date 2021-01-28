@@ -6,7 +6,11 @@
     <description>Recent content in vfx, blender on RNakanishi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Sat, 07 Dec 2019 22:10:08 +0900</lastBuildDate><atom:link href="https://rnakanishi.github.io/tags/vfx-blender/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Dec 2019 22:10:08 +0900</lastBuildDate>
+    
+	<atom:link href="https://rnakanishi.github.io/tags/vfx-blender/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Particles Banner</title>
       <link>https://rnakanishi.github.io/portfolio/particles-banner/</link>
